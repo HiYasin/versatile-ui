@@ -528,6 +528,71 @@ line-height: 120%;
     }
     
 }
+
+
+/* pricing */
+.membership{
+    margin: 50px 0px;
+}
+.membership h1{
+    font-size: 46px;
+    text-align: center;
+    margin: 50px;
+}
+.membershipContainer{
+    /* padding: 40px 120px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.price{
+    border-radius: 18px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.price ul{
+    margin-left: 15px;
+}
+
+.price hr{
+    color:rgb(86, 86, 86);
+}
+.price h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.price ul li{
+    color: rgb(200, 200, 200);
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+@media (max-width: 576px) {
+    .membership{
+        padding: 40px 0px;
+    }
+    .membership h1{
+        font-size: 36px;
+        text-align: center;
+        margin: 30px;
+    }
+    .membershipContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .price{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .price h2{
+        font-size: 20px;
+    }
+}
+/* footer */
 footer{
     padding: 40px 120px;
 }
@@ -565,7 +630,7 @@ footer li{
     width: 25%;
 }
 footer hr{
-    color: rgb(200, 200, 200);
+    color: rgb(128, 128, 128);
 }
 .copyright{
     padding-top: 50px;
