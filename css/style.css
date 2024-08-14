@@ -176,10 +176,11 @@ p{
 
 
 /* Habit styles */
-main{
+.main1 {
     padding: 20px 120px;
     background: black;
 }
+
 .habit{
     text-align: center;
 }
@@ -244,4 +245,73 @@ main{
     background-repeat: no-repeat;
     transform: scale(3.2);
     translate: -150px 115px;
+}
+
+/* Calculator styles*/
+
+.main2{
+    background: rgb(34, 34, 34) ;
+    
+}
+.calculator{
+    padding: 20px 120px;
+}
+.calculatorTitle{
+    width: 60%;
+    margin: 100px auto;
+    background: black;
+}
+.calculatorTitle h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.calculatorBody{
+    display: flex;
+    justify-content: space-between; 
+    padding: 50px;
+}
+.bmiChart{
+    width: 50%;
+}
+.bmiCalculator{
+    width: 60%;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #777777;
+    padding: 8px;
+    text-align: left;
+}
+td{
+    color: rgb(160, 160, 160);
+}
+
+.calculator h2{
+font-size: 28px;
+font-weight: 900;
+line-height: 120%;
+margin: 25px 0px;
+text-align: left;
+}
+.form{
+    margin-top: 50px;
+}
+.form-group input, select{
+    padding: 12px 40px 12px 20px;border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin: 0 15px 15px 0px;
+    width: 46%;
+    color: rgb(150, 150, 150) ;
+}
+#activity{
+    width: 95%;
+}
+select > option{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
 }
