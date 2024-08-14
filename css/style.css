@@ -95,7 +95,7 @@ header {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.5px;
-    color: rgb(177, 177, 177);
+    color: rgb(200, 200, 200);
     margin-top: 25px;
 }
 
@@ -139,6 +139,9 @@ header {
     font-weight: 900;
     line-height: 24px;
 }
+p{
+    color: rgb(200, 200, 200);
+}
 .imageTopText{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -168,4 +171,43 @@ header {
     position: absolute;
     left: 1175px;
     top: 230px;
+}
+
+
+/* Habit styles */
+main{
+    padding: 20px 120px;
+    background: black;
+}
+.habit{
+    text-align: center;
+}
+.habitTitle{
+    font-size: 48px;
+    font-weight: 900;
+}
+.habitSubTitle{
+    margin: 10px auto;
+    width: 55%;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px ;
+    /* width: 100vw; */
+}
+.card{
+    width: 230px;
+    box-sizing: border-box;
+}
+.card img{
+    border-radius: 50%;
+    border: 2px solid rgb(77, 77, 77);
+}
+.card h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 5px;
 }
