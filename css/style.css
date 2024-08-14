@@ -362,3 +362,46 @@ line-height: 120%;
         grid-template-columns: 1fr; /* 1 column on extra small screens */
     }
 }
+footer{
+    padding: 40px 120px;
+}
+.footercontainer{
+    padding-bottom: 50px ;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid white ;
+}
+footer h1{
+    font-size: 70px;
+font-weight: 800;
+line-height: 120%;
+color:rgb(230, 83, 60);
+font-style: italic;
+
+}
+footer h2{
+    font-size: 32px;
+font-weight: 700;
+line-height: 120%;
+}
+footer li{
+    color: rgb(200, 200, 200);
+    list-style: none;
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.footerdescription{
+    width: 40%;
+}
+.getStart{
+    width: 25%;
+}
+footer hr{
+    color: rgb(200, 200, 200);
+}
+.copyright{
+    padding-top: 50px;
+    text-align: center;
+}
