@@ -141,6 +141,7 @@ header {
 }
 p{
     color: rgb(200, 200, 200);
+    line-height: 24px;
 }
 .imageTopText{
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -203,11 +204,44 @@ main{
 }
 .card img{
     border-radius: 50%;
-    border: 2px solid rgb(77, 77, 77);
+    border: 5px solid rgb(39, 39, 39);
 }
 .card h2{
     font-size: 18px;
     font-weight: 600;
     margin-top: 30px;
     margin-bottom: 5px;
+}
+
+/* Extra Mile */
+
+.extraMile{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.extraMileDescription{
+    width: 450px;
+    margin-left: 25px;
+}
+.extraMileDescription h1{
+    font-size: 48px;
+    font-weight: 900; 
+    margin-bottom: 20px;
+}
+.extraMileImage{
+    width: 400px;
+    height: 341px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.extraMileImage img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(3.2);
+    translate: -150px 115px;
 }
