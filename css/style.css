@@ -315,3 +315,50 @@ select > option{
     color: black;
     border-radius: 10px;
 }
+
+/* team style */
+.teamTitle{
+    text-align: center;
+    margin: 50px 10px;
+}
+.teamTitle h1{
+    font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+}
+.memberContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Gap between images */
+    margin: 0 auto;
+    width:90%;
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+.teamCard{
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.memberContainer img {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.2);
+    
+}
+
+@media (max-width: 768px) {
+    .memberContainer {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .memberContainer {
+        grid-template-columns: 1fr; /* 1 column on extra small screens */
+    }
+}
